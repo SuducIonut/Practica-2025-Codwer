@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorApp3.Domain\BlazorApp3.Domain.csproj" />
+    <ProjectReference Include="..\BlazorApp3.Infrastructure\BlazorApp3.Infrastructure.csproj" />
+    <ProjectReference Include="..\BlazorApp3.Shared\BlazorApp3.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
